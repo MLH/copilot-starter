@@ -48,7 +48,7 @@ Copilot can explain what code does, you can select a section of code or have it 
 _With `app.py` open, try selecting all of it._
 2. Open Copilot (`Ctrl-I` / `⌘-I`)
 3. Type `/explain`. \
-_You can have Copilot explain the file generally, or as specific questions like `/fix Why is is int() used?`_
+_You can have Copilot explain the file generally, or as specific questions like `/explain Why is is int() used?`_
 
 This is great when you come across a project you've never seen before or if a teammate introduced a method with some functions you don't recognize.
 
