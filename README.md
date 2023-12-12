@@ -54,7 +54,7 @@ This is great when you come across a project you've never seen before or if a te
 
 ### 2. Fix Issues
 
-The Flask app as written has a bug in it [which you'll see if (you run the app](#3-run-the-flask-app). You can have Copilot propose fixes.
+The Flask app as written has a bug in it which you'll see [if you run the app](#3-run-the-flask-app). You can have Copilot propose fixes.
 
 1. Open Copilot (`Ctrl-I` / `⌘-I`)
 2. Type `/fix`. \
