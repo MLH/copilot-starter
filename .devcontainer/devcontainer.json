@@ -1,31 +1,29 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "hostRequirements": {
-    "cpus": 4
-  },
-  "waitFor": "onCreateCommand",
-  "updateContentCommand": "pip install -r requirements.txt",
-  "postCreateCommand": "",
-  "postAttachCommand": {
-    "server": "flask --debug run"
-  },
-  "portsAttributes": {
-    "5000": {
-      "label": "Application",
-      "onAutoForward": "openPreview"
-    }
-  },
-  "customizations": {
-    "codespaces": {
-      "openFiles": [
-        "templates/index.html"
-      ]
-    },
-    "vscode": {
-      "extensions": [
-        "ms-python.python"
-      ]
-    }
-  },
-  "forwardPorts": [5000]
+	"name": "GitHub Copilot - Flask Starter",
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"hostRequirements": {
+		"cpus": 4
+	},
+	"waitFor": "onCreateCommand",
+	"updateContentCommand": "pip install -r requirements.txt",
+	"postCreateCommand": "",
+	"postAttachCommand": {
+		"server": "flask --debug run"
+	},
+	"portsAttributes": {
+		"5000": {
+			"label": "Application",
+			"onAutoForward": "openPreview"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python"
+			]
+		}
+	},
+	"forwardPorts": [
+		5000
+	]
 }
